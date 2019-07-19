@@ -2,7 +2,7 @@
 #include <util/delay.h>
 #include <avr/sleep.h>
 
-int DEL = 5;
+int DEL = 35;
 
 int main(void) {
   DDRB &= ~(1 << PB4);  // PCINT4, where a button is attached (pulled up)
